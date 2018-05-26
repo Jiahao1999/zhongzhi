@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>中智首页</title>
+	<style type="text/css">
+		* {
+            padding: 0;
+            margin: 0;
+        }
+        ul,li,ol{
+        	list-style: none;
+        }
+        a{
+        	text-decoration: none;
+        }
+        .f1{
+        	height:170px;
+        	text-align:center;
+        	background-color: #f6f6f6;
+        }
+        .f1 li{
+        	float:left;
+        	height: 45px;
+        	background: url(z2.png) no-repeat right center;
+        	padding: 0 30px;
+        	line-height: 45px;
+        	font-size: 14px;
+        }
+        .f1 li a{
+        	display:block;
+        	height: 42px;
+        	border-bottom: 3px solid #1e50ae;
+        }
+        .f1 li:last-child{
+        	background: none;
+        }
+        .logo{
+        	padding-top:30px;
+        	padding-bottom: 23px;
+        }
+        .daohang{
+        	width:672px;
+        	height: 45px;
+        	background-color: #fff;
+        	margin: 0 auto;
+        	border-radius: 20px;
+        }
+        .f2{
+        	height: 408px;
+        	background: url(z3.png) no-repeat center center;
+        }
+        .f3{
+        	padding-top: 60px;
+        	height: 730px;
+        	width: 1200px;
+        	margin: 0 auto;
+        }
+        .f31{
+        	position: relative;
+        	width: 1200px;
+        	height: 367px;
+        }
+        .f311{
+        	position: absolute;
+        	width: 300px;
+        	height: 330px;
+        	margin: 0 auto;
+        	padding-top: 37px;
+        	text-align: center;
+        	display: block;
+        }
+        .f312{
+        	color: #c8c8c8;
+        	background: url(z5.png) no-repeat left;
+        	text-align:left;
+        	margin-left: 112px;
+        	padding: 0 10px;
+        }
+        .f313{
+        	position: absolute;
+        	width: 300px;
+        	height: 250px;
+        	margin: 0 auto;
+        	text-align: center;
+        	display: block;
+        }
+        .f4{
+        	padding-top: 150px;
+        	height: 710px;
+        	position: relative;
+        	background: url(z6.png) no-repeat center center;
+        }
+        .f41{
+        	height: 440px;
+        	width: 1200px;
+        	margin: 0 auto;
+        	position: relative;
+        	background: url(z63.png) no-repeat center center;
+        }
+        .f41 li{
+        	width: 230px;
+        	height: 298px;
+        	display: inline-block;
+        }
+        .f42{
+        	position: relative;
+        	left:642px;
+        }
+        .f5{
+            height: 850px;
+            background: url(z8.png) no-repeat center center;
+            position: relative;
+        }
+        .f51{
+            position: relative;
+            left: 800px;
+            width: 560px;
+            height: 300px;
+            margin-top: 80px;
+        }
+        .f52{
+            width: 1200px;
+            height: 300px;
+            position: relative;
+            margin: 0px auto;
+        }
+        .f521{
+            width: 600px;
+            padding-left: 50px;
+        }
+        .f522{
+            width: 600px;
+            position: absolute;
+            left: 600px;
+            top:0px;
+            padding-left: 33px;
+        }
+        .f52 p{
+        	line-height: 48px;
+        }
+        .f6{
+        	background-color: #eee;
+        	height: 100px;
+        }
+        .f611{
+        	position: absolute;
+        	height: 100px;
+        	width: 250px;
+        	margin: 0px;
+        	display: block;
+        }
+        .f612{
+			padding-left: 70px;
+			position:absolute;
+			top:33px;
+        }
+        .f622{
+			padding-left: 70px;
+			position:absolute;
+			top:60px;
+			font-size: 0.7em;
+        }
+        .f7{
+        	height: 260px;
+        	background-color: #323232;
+        	position: relative;
+        }
+        .f71{
+        	height: 260px;
+        	width: 85px;
+        	padding-top: 72px;
+        	color: #fff;
+        	position: absolute;
+        }
+        .f72{
+        	width: 146px;
+        	height: 146px;
+        	padding-top: 72px;
+        	margin-left: 896px;
+        	position: absolute;
+        }
+        .f73{
+        	width: 20px;
+        	height: 128px;
+        	padding-top: 83px;
+        	margin-left: 1078px;
+        	font-size: 18px;
+        	color: #fff;
+        	position: absolute;
+        }
+        .f74{
+        	width: 1px;
+        	height: 139px;
+        	padding-top: 75px;
+        	margin-left: 1131px;
+        	position: absolute;
+        }
+        .f75{
+        	width: 210px;
+        	height: 120px;
+        	padding-top: 87px;
+        	margin-left: 1171px;
+        	position: absolute;
+        }
+        .f751{
+        	position: absolute;
+        	padding-top: 21px; 
+        }
+        .f752{
+        	position: absolute;
+        	padding-top: 21px; 
+        	padding-left: 42px;
+        	font-size: 16px;
+        	color: #fff;
+        }
+        .f753{
+        	position: absolute;
+        	padding-top: 71px; 
+        }
+        .f754{
+        	position: absolute;
+        	padding-top: 71px; 
+        	padding-left: 42px;
+        	font-size: 16px;
+        	color: #fff;
+        }
+        .f8{
+        	height: 1px;
+        	background-color: #eee;
+        }
+        .f9{
+        	height: 124px;
+        	background-color: #323232;
+        	padding-top: 39px;
+        }
+        .f91{
+        	width:770px;
+        	height: 16px;
+        	margin: 0 auto;
+        }
+        .f91 li{
+        	float:left;
+        	height: 16px;
+        	background: url(z14.png) no-repeat right center;
+        	padding: 0 14px;
+        	line-height: 16px;
+        	font-size: 14px;
+        	color: #fff;
+        }
+        .f91 li:last-child{
+        	background: none;
+        }
+        .last{
+        	height: 14px;
+        	width:274px;
+        	padding-top:29px;
+        	margin: 0px auto;
+        }
+	</style>
+</head>
+<body>
+	<div class="f1">
+		<img src="images/z1.png" alt="z1" class="logo">
+		<ul class="daohang">
+			<li><a href="">首页</a></li>
+			<li><a href="">关于我们</a></li>
+			<li><a href="">中智服务</a></li>
+			<li><a href="">解决方案</a></li>
+			<li><a href="">最新资讯</a></li>
+			<li><a href="">联系我们</a></li>
+		</ul>
+	</div>
+	<div class="f2">
+	</div>
+	<div class="f3">
+		<h1 align="center" style="font-weight:lighter;font-size: 34px">项目服务</h1><br>
+		<p align="center" style="font-size: 28px;font-weight:lighter">SERVICE ITEMS</p>
+		<div class="f31">
+			<ul>
+				<li class="f311"><img src="images/z4_01.png">
+					<p align="center">工商代理</p>
+					<ul>
+						<li class="f312">公司注册</li>
+						<li class="f312">公司注册地址</li>
+						<li class="f312">分公司注册</li>
+						<li class="f312">外资注册</li>
+						<li class="f312">股权变更</li>
+						<li class="f312">公司注销</li>
+					</ul>
+				</li>
+				<li class="f311" style="left: 300px;"><img src="images/z4_02.png">
+					<p align="center">财务代理</p>
+					<ul>
+						<li class="f312">代理记账</li>
+						<li class="f312">税务筹划</li>
+						<li class="f312">审计服务</li>
+					</ul>
+				</li>
+				<li class="f311" style="left: 600px;"><img src="images/z4_03.png">
+					<p align="center">资质服务</p>
+					<ul>
+						<li class="f312">各类许可证</li>
+						<li class="f312">资质审批</li>
+						<li class="f312">高新企业</li>
+						<li class="f312">商标专利</li>
+					</ul>
+				</li>
+				<li class="f311" style="left: 900px;"><img src="images/z4_04.png" >
+					<p align="center">特色服务</p>
+					<ul>
+						<li class="f312" style="color:#fff ">白的~哎</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="f31" style="height: 220px;">
+			<ul>
+				<li class="f313"><img src="images/z4_05.png" >
+					<p align="center">公积金社保代理</p>
+				</li>
+				<li class="f313" style="left: 300px;"><img src="images/z4_06.png" >
+					<p align="center">办公室租赁</p>
+				</li>
+				<li class="f313" style="left: 600px;"><img src="images/images/z4_07.png" >
+					<p align="center">营业执照转让</p>
+				</li>
+				<li class="f313" style="left: 900px;"><img src="/images/z4_08.png" >
+					<p align="center">法律服务</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="f4">
+		<h1 align="center" style="font-weight:lighter;font-size: 34px;color: #fff">解决方案</h1><br>
+		<p align="center" style="font-size: 25px;font-weight:lighter;color: #fff">SOLUTION</p>
+		<div class="f41">
+			<ul>
+				<li style="margin-left: 52px;margin-top: 70px"><img src="images/z71.png"></li>
+				<li style="margin-left: 52px"><img src="images/z72.png"></li>
+				<li style="margin-left: 52px"><img src="images/z73.png"></li>
+				<li style="margin-left: 52px"><img src="images/z74.png"></li>
+			</ul>
+		</div>
+		<img src="images/z75.png" class="f42">
+	</div>
+	<div class="f5">
+		<h1 align="center" style="font-weight:lighter;font-size: 34px;">最新资讯</h1><br>
+        <p align="center" style="font-size: 25px;font-weight:lighter;">LATEST INFORMATION</p>
+        <div class="f51">
+            <h1 align="left" style="font-size: 27px;">交易明智&方便</h1><br>
+            <p align="LEFT" style="font-size: 19px;font-weight:lighter;">TRANSACTION WISE & CONVENIENT</p>
+            <p style="padding-top: 33px;line-height:33px;">要适应快速发展的差价合约市场,客户需要一个能让他们不用经纪商的介入就能分析实时报价、进行实时交易以及应用投资策略的平台。他们需要一个简单便捷的界面来管理他们的账户,并能轻松查看图标和报告。</p>
+            <img src="images/z81.png" style="padding-top: 30px;">
+        </div>
+        <div class="f52">
+            <div class="f521">
+                <p>为什么企业上市之路更加艰难?前期工作有哪些问题,不少企业在财务问题上...</p>
+                <p>为什么企业上市之路更加艰难?前期工作有哪些问题,不少企业在财务问题上...</p>
+                <p>为什么企业上市之路更加艰难?前期工作有哪些问题,不少企业在财务问题上...</p>
+                <p>为什么企业上市之路更加艰难?前期工作有哪些问题,不少企业在财务问题上...</p>
+                <p>为什么企业上市之路更加艰难?前期工作有哪些问题,不少企业在财务问题上...</p>
+                <p>为什么企业上市之路更加艰难?前期工作有哪些问题,不少企业在财务问题上...</p>
+            </div>
+            <div class="f522">
+                <p>为什么企业上市之路更加艰难?前期工作有哪些问题,不少企业在财务问题上...</p>
+                <p>为什么企业上市之路更加艰难?前期工作有哪些问题,不少企业在财务问题上...</p>
+                <p>为什么企业上市之路更加艰难?前期工作有哪些问题,不少企业在财务问题上...</p>
+                <p>为什么企业上市之路更加艰难?前期工作有哪些问题,不少企业在财务问题上...</p>
+                <p>为什么企业上市之路更加艰难?前期工作有哪些问题,不少企业在财务问题上...</p>
+                <p>为什么企业上市之路更加艰难?前期工作有哪些问题,不少企业在财务问题上...</p>
+            </div>
+        </div>
+	</div>
+	<div class="f6">
+		<div class="f61">
+			<ul>
+				<li class="f611" style="left: 231px;"><img src="images/z91.png" style="padding-top: 29px">
+					<p class="f612">资质认证</p>
+					<p class="f622">服务商100%实名认证</p>
+				</li>
+				<li class="f611" style="left: 525px;"><img src="images/z92.png" style="padding-top: 29px">
+					<p class="f612">支付安全</p>
+					<p class="f622">明码标价支付及信息安全</p>
+				</li>
+				<li class="f611" style="left: 819px;"><img src="images/z93.png" style="padding-top: 29px">
+					<p class="f612">保险赔付</p>
+					<p class="f622">为您提供担保赔付</p>
+				</li>
+				<li class="f611" style="left: 1123px;"><img src="images/z94.png" style="padding-top: 29px">
+					<p class="f612">售后无忧</p>
+					<p class="f622">服务出问题经理全程跟进</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="f7">
+		<ul>
+			<li class="f71" style="margin-left: 178px;">
+				<h4>中智信元</h4><br>
+				<p>加入我们</p><br>
+				<p>联系我们</p><br>
+				<p>最新动态</p><br>
+			</li>
+			<li class="f71" style="margin-left: 359px;">
+				<h4>中智信元</h4><br>
+				<p>加入我们</p><br>
+				<p>联系我们</p><br>
+				<p>最新动态</p><br>
+			</li>
+			<li class="f71" style="margin-left: 543px;">
+				<h4>中智信元</h4><br>
+				<p>加入我们</p><br>
+				<p>联系我们</p><br>
+				<p>最新动态</p><br>
+			</li>
+			<li class="f71" style="margin-left: 722px;">
+				<h4>中智信元</h4><br>
+				<p>加入我们</p><br>
+				<p>联系我们</p><br>
+				<p>最新动态</p><br>
+			</li>
+			<li class="f72">
+				<img src="images/z10.png">
+			</li>
+			<li class="f73">
+				<p>微信扫一扫</p>
+			</li>
+			<li class="f74">
+				<img src="images/z11.png">
+			</li>
+			<li class="f75">
+				<p style="font-size: 18px;color: #fff">咨询热线: 400-000-0000</p>
+				<img src="images/z12.png" class="f751">
+				<p class="f752">1234567888@qq.com</p>
+				<img src="images/z13.png" class="f753">
+				<p class="f754">某某企业网站官方微信</p>
+			</li>
+		</ul>
+	</div>
+	<div class="f8"></div>
+	<div class="f9">
+		<ul class="f91">
+			<li><p>首页</p></li>
+			<li><p>工商代理</p></li>
+			<li><p>财务代记账</p></li>
+			<li><p>股权交易与变更</p></li>
+			<li><p>企业贷款</p</li>
+			<li><p>办公室租赁</p></li>
+			<li><p>社保公积金代理</p></li>
+			<li><p>法律服务</p></li>
+		</ul>
+		<div class="last">
+			<p style="font-size: 14px;color: #fff;">© 2017-2018 中智信元有限公司 版权所有</p>
+		</div>
+	</div>
+</body>
+</html><!--我滴老哥!终于写完了!--!>
